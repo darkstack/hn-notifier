@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 
 base_url = 'https://hacker-news.firebaseio.com'
 stories_file = 'stories.txt'
-mails_file  = 'hnmail.txt'
+mails_file  = 'sendingto.txt'
 sending_mail = ''
 with open(stories_file) as f:
     meanwhile_stories = f.read().splitlines()

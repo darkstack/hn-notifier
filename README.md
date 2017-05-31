@@ -6,3 +6,13 @@ I wrote this small script that groups the stories that get into the top `x` rank
 
 An example of the mail_sender script is available, I did not include the actual mail sender since you can use whathever you want, a direct mail from python, a third party like mailgun, pushbulet or whathever you like.
 
+Edit : 
+
+Send via SMTP 
+Added sendingto.txt (multiple emails)
+Added Comments
+crontab setup : 
+0 9-18/3 * * * ~/hn/hn.py && ~/hn/mail.py >> logmail.txt
+
+
+ 
