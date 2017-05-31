@@ -8,10 +8,14 @@ An example of the mail_sender script is available, I did not include the actual 
 
 Edit : 
 
-Send via SMTP 
-Added sendingto.txt (multiple emails)
-Added Comments
-crontab setup : 
+Send via SMTP. 
+
+Added sendingto.txt (multiple emails).
+
+Added Comments.
+
+crontab setup :
+
 0 9-18/3 * * * ~/hn/hn.py && ~/hn/mail.py >> logmail.txt
 
 
